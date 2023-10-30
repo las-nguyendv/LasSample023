@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "LasSample023.app"
-               BlueprintName = "LasSample023"
-               ReferencedContainer = "container:LasSample023.xcodeproj">
+               BuildableName = "Xuao.app"
+               BlueprintName = "Xuao"
+               ReferencedContainer = "container:Xuao.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "LasSample023Tests.xctest"
-               BlueprintName = "LasSample023Tests"
-               ReferencedContainer = "container:LasSample023.xcodeproj">
+               BuildableName = "XuaoTests.xctest"
+               BlueprintName = "XuaoTests"
+               ReferencedContainer = "container:Xuao.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "LasSample023.app"
-            BlueprintName = "LasSample023"
-            ReferencedContainer = "container:LasSample023.xcodeproj">
+            BuildableName = "Xuao.app"
+            BlueprintName = "Xuao"
+            ReferencedContainer = "container:Xuao.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "LasSample023.app"
-            BlueprintName = "LasSample023"
-            ReferencedContainer = "container:LasSample023.xcodeproj">
+            BuildableName = "Xuao.app"
+            BlueprintName = "Xuao"
+            ReferencedContainer = "container:Xuao.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
