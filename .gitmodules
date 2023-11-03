@@ -1,0 +1,3 @@
+[submodule "packages/ads"]
+	path = packages/ads
+	url = git@github.com-las:las-nhith/rnads.git

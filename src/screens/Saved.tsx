@@ -10,6 +10,7 @@ import { useNavigation } from '@react-navigation/native';
 import { Screens } from '../navigation/type';
 import { Media } from '../common/types';
 import { usePlayContext } from '../provider/PlayProvider';
+import { AdsBanner } from 'ads';
 
 const Saved: FC = () => {
   const navigation = useNavigation();
@@ -81,6 +82,7 @@ const Saved: FC = () => {
     <Layout>
       <SafeAreaView edges={['top']} />
       <Text style={styles.title}>Saved</Text>
+      <AdsBanner style={{ marginTop: 10 }} />
       <FlatList
         data={mixs}
         renderItem={renderItem}

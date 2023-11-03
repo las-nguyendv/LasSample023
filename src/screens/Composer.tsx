@@ -10,6 +10,7 @@ import { AmbienceData, AnimalData, NatureData } from '../common/data';
 import { Media } from '../common/types';
 import { usePlayContext } from '../provider/PlayProvider';
 import { useSavedMix } from '../hooks/useSavedMix';
+import { AdsBanner } from 'ads';
 
 const Composer: FC = () => {
   const { togglePlay, isPlaying, playingType, medias } = usePlayContext();
@@ -72,6 +73,7 @@ const Composer: FC = () => {
         </View>
       </HeaderLayout>
       <ScrollView style={styles.content}>
+        <AdsBanner />
         <WhiteNoiseList title="Ambience" data={AmbienceData} onPressItem={onPressMedia} />
         <WhiteNoiseList
           title="Nature"

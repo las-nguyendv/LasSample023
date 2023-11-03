@@ -14,6 +14,7 @@ import { getSampleMedias } from '../common/utils';
 import { usePlayContext } from '../provider/PlayProvider';
 import { isTablet } from 'react-native-device-info';
 import { Icon } from '@rneui/themed';
+import { AdsBanner } from 'ads';
 
 const Home: FC = () => {
   const [categories, setCategories] = useState<string[]>([]);
@@ -79,6 +80,7 @@ const Home: FC = () => {
         </View>
         {/* <ListCategory selected={categories} onSelect={onSelectCategory} onSelectAll={onSelectAllCategory} /> */}
       </HeaderLayout>
+      <AdsBanner style={{ marginTop: 10 }} />
       <FlatList
         data={SAMPLES}
         renderItem={renderItem}

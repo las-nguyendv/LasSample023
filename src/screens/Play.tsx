@@ -18,6 +18,7 @@ import { getMedias, getSampleMedias } from '../common/utils';
 import LottieView from 'lottie-react-native';
 import { useAsyncStorage } from '@react-native-async-storage/async-storage';
 import { usePlayContext } from '../provider/PlayProvider';
+import { AdsBanner } from 'ads';
 
 export const Play: FC = () => {
   const navigation = useNavigation();
@@ -172,6 +173,7 @@ export const Play: FC = () => {
             <Icon name={'alarm-outline'} type="ionicon" onPress={onSelectTime} color={'#fff'} />
           </View>
         </View>
+        <AdsBanner style={{ marginTop: 20 }} />
       </View>
     </Layout>
   );
@@ -247,5 +249,8 @@ export const styles = StyleSheet.create({
   },
   iconContainer: {
     flex: 1,
+  },
+  banner: {
+    marginTop: 10,
   },
 });
